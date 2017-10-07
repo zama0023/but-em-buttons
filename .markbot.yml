@@ -29,6 +29,7 @@ css:
   - path: 'css/main.css'
     has:
       - ['html', 'font-family', '"Ubuntu Condensed", sans-serif']
+      - ['.btn-ghost', 'transition']
     search:
       - 'url\(\"\.\./images/starfield\.png\"\)'
       - '#fff'
@@ -39,7 +40,6 @@ css:
       - 'text-shadow'
       - 'border-radius'
       - 'border-color'
-      - ['.btn-ghost', 'transition']
       - '\:hover'
       - '\:focus'
       - '\:active'
