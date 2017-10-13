@@ -6,8 +6,14 @@ body {
   background: url("../images/starfield.png");
 }
 
-div {
+.content {
+  position: absolute;
+  top: 272px;
+  width: 100%;
+}
+h1, p {
   color: #fff;
+  text-shadow: 0 0 .2em rgba(255, 255, 255, .7)
 }
 
 .btn {
