@@ -11,14 +11,41 @@ body {
   top: 272px;
   width: 100%;
 }
+
 h1, p {
   color: #fff;
-  text-shadow: 0 0 .2em rgba(255, 255, 255, .7)
-}
-
-.btn {
-  color: #b4fff4;
+  text-shadow: 0 0 .2em rgba(255, 255, 255, .7);
 }
 
 .btn-ghost {
+  border-color: #90ccc3;
+  color: #b4fff4;
+  border-radius: 8px;
+  transition: 500ms;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(180, 255, 244, .2);
+  border-color: #90ccc3;
+  color: #b4fff4;
+}
+
+.btn-ghost:hover .icon {
+  top: -5px;
+}
+
+.btn-ghost:active {
+  transform: translateY(5px);
+  transition: 500ms;
+  top: 5px;
+}
+
+.btn-ghost:focus {
+  background-color: rgba(180, 255, 244, .2);
+  border-color: #90ccc3;
+  color: #b4fff4;
+}
+
+.btn-ghost:focus .icon {
+  top: -5px;
 }
