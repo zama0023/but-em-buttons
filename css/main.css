@@ -1,0 +1,18 @@
+html {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+body {
+  background: url("../images/starfield.png");
+}
+
+div {
+  color: #fff;
+}
+
+.btn {
+  color: #b4fff4;
+}
+
+.btn-ghost {
+}
